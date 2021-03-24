@@ -3,7 +3,7 @@
 
 
 
-Aplicação de controle financeiro desenvolvido por Mayk Brito durante a Maratona Discover oferecida pela Rocketseat.
+Aplicação de controle financeiro desenvolvido por Wesley Dias.
 
 O objetivo da aplicaçao é facilitar o controle financeiro das pessoas de forma simples e rapida.
 
@@ -13,7 +13,7 @@ Essa versao em especifico possui um "Theme Switcher" visando melhorar a experien
 
 English
 
-tFinancial control application developed by Mayk Brito during the Discover Marathon offered by Rocketseat.
+Financial control application developed by Wesley Dias.
 
 The goal of the application is to make people's financial control easier and faster.
 
