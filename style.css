@@ -52,11 +52,36 @@ a {
 a:hover {
     color: #3dd705;
 }
+button {
+    width: 50%;
+    height: 50px;
+    border: none;
+    color: white;
+    background: #49aa26;
+    padding: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
 button.new {
     display: inline-block;
     margin-bottom: .8rem;
-
-
+}
+button:hover {
+    background: #3dd705;
+}
+.button.cancel {
+    color: #e92929;
+    border: 2px solid #e92929;
+    border-radius: .25rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    width: 50%;
+}
+.button.cancel:hover {
+    opacity: 1;
 }
 
 
@@ -190,24 +215,35 @@ td.expensive {
     background: #f0f2f5;
     padding: 2.4rem;
     position: relative;
-   
-    
+    width: 90%;
+    max-width: 500%;
 }
 
 /* Form=========================*/
 #form {
     max-width: 500px;
-
 }
-#horm h2 {
+#form h2 {
     margin-top: 0;
-
 }
 input {
     border: none;
     border-radius: 0.2rem;
-    
+    padding: 0.8rem;
+    width: 100%;
 }
+.input-group {
+    margin-top: 0.8rem;
+}
+.input-group small {
+    opacity: 0.4;
+}
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Footer=========================*/
 
 footer {
